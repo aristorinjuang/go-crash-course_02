@@ -8,10 +8,10 @@ type location struct {
 
 func main() {
 	offices := map[string]location{
-		"Apple": location{
+		"Apple": {
 			37.33199, -122.03089,
 		},
-		"Google": location{
+		"Google": {
 			37.42202, -122.08408,
 		},
 	}
